@@ -1,0 +1,11 @@
+
+.bookmark-button {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: .9;
+    cursor: pointer;
+}
+

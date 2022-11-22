@@ -1,0 +1,107 @@
+
+
+.button-default {
+    border-radius: 3px;
+    border: 1px solid var(--lightgrey);
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--darkgrey);
+    background-color: var(--white);
+    margin: 10px 10px 10px 10px;
+    width: 80%;
+    height: 25px;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 1px 1px 5px var(--lightgrey);
+
+}
+
+.button-default:hover {
+    cursor: pointer;
+}
+
+.button-correct {
+    border: 1px solid var(--lightgrey);
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 3px;
+    border: 1px solid var(--lightgrey);
+    background-color: var(--green);
+    width: 80%;
+    height: 25px;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 1px 1px 3px var(--lightgrey);
+}
+
+.button-correct-green {
+    border: 1px solid var(--lightgrey);
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 3px;
+    border: 1px solid var(--lightgrey);
+    background-color: var(--green);
+    width: 80%;
+    height: 25px;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 1px 1px 3px var(--lightgrey);
+}
+
+.button-correct-grey {
+    border: 1px solid var(--lightgrey);
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 3px;
+    border: 1px solid var(--lightgrey);
+    background-color: var(--darkblue);
+    color: var(--white);
+    width: 80%;
+    height: 25px;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 1px 1px 3px var(--lightgrey);
+}
+
+.button-correct-redviolet {
+    border: 1px solid var(--lightgrey);
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 3px;
+    border: 1px solid var(--lightgrey);
+    background-color: var(--redviolet);
+    color: var(--white);
+    width: 80%;
+    height: 25px;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 1px 1px 3px var(--lightgrey);
+}
+
+.button-incorrect {
+    border: 1px solid var(--lightgrey);
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 1rem;
+    border-radius: 3px;
+    opacity: .5;
+    width: 80%;
+    height: 25px;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 1px 1px 3px var(--lightgrey);
+}
+
+.button-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.button-label-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

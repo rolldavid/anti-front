@@ -1,0 +1,201 @@
+
+.add-bookmarks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-bookmarks-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.add-bookmarks-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 800px;
+}
+
+.add-bookmark-out-container {
+    width: 100%;
+}
+
+
+
+.bookmarked-detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.close-bookmarks-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+.add-bookmark-question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--darkgrey);
+    border-radius: 3px;
+    margin: 15px 0px 5px 0px;
+    padding: 0px 5px 0px 5px;
+    width: 400px;
+    min-height: 40px;
+    
+}
+
+
+.add-bookmark-question-container-out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--lightgrey);
+    border-radius: 3px;
+    margin: 0px 0px 5px 0px;
+    padding: 0px 5px 20px 0px;
+    width: 400px;
+    min-height: 40px;
+    box-shadow: 1px 1px 3px var(--lightgrey);
+  
+}
+
+.add-bookmarks-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.join-title {
+    text-align: center;
+    margin: 25px 10px 0px 10px;
+    color: var(--darkgrey);
+    font-size: 1.25rem;
+}
+
+.benefits-list {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.benefits-item {
+    margin: 15px 0px 20px 0px;
+}
+
+.add-bookmark-question {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+   
+    padding: 10px;
+}
+
+.add-bookmarks-title {
+    margin-top: 0px;
+}
+
+.bookmarks-auth {
+    margin: 0px 0px 10px 0px;
+}
+
+.bookmarks-join-button {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid var(--grey);
+    color: var(--darkgrey);
+    background: none;
+    border-radius: 3px;
+    margin: 0px 10px 0px 10px;
+    padding: 4px 15px 4px 15px;
+    box-shadow: 1px 1px 3px var(--lightgrey);
+}
+
+.bookmarks-signup-button {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid var(--grey);
+    color: var(--darkgrey);
+    background: none;
+    border-radius: 3px;
+    margin: 0px 10px 0px 10px;
+    padding: 4px 15px 4px 15px;
+    box-shadow: 1px 1px 3px var(--lightgrey);
+}
+
+.add-bookmarks-title {
+    text-align: center;
+    
+}
+
+.new-daily-game {
+    color: var(--darkgrey);
+}
+
+.new-practice-game {
+    border: 1px solid var(--darkgrey);
+    border-radius: 3px;
+    padding: 2px 8px 2px 8px;
+    border-color: var(--grey);
+    box-shadow: 1px 1px 3px var(--lightgrey);
+    cursor: pointer;
+    margin: 0px 0px 30px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .add-bookmarks-inner-container {
+        width: 100%;
+       
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .add-bookmarks-title {
+        margin: 0;
+    }
+
+    .new-practice-game {
+        padding: 5px 10px 5px 10px;
+        font-size: 1.1rem;
+        
+    }
+
+    .add-bookmark-question-container-out {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--lightgrey);
+        border-radius: 3px;
+        margin: 0px 0px 5px 0px;
+        padding: 0px 5px 20px 0px;
+        width: 95%;
+        min-height: 40px;
+        box-shadow: 1px 1px 3px var(--lightgrey);
+      
+    }
+    
+    .add-bookmarks-login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}

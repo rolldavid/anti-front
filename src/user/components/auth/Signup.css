@@ -1,0 +1,19 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 65px 0px 0px 0px;
+}
+
+.signup-title {
+    color: var(--black);
+}
+
+.loading-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+}

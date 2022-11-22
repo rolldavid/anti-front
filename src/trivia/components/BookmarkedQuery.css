@@ -1,0 +1,138 @@
+
+
+.bookmarked-query-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.bookmarked-detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.bookmarked-category-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+
+
+.trivia-retrieve-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.author-category {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+}
+
+.info-img {
+    width: 15px;
+    height: auto;
+}
+
+.info-img:hover {
+    
+}
+
+.bookmark-img {
+    width: 15px;
+    height: auto;
+    margin: 0px 10px 0px 0px;
+    opacity: .5;
+}
+
+.bookmark-img:hover {
+    opacity: .8;
+}
+
+.no-results {
+    color: var(--redviolet);
+}
+
+.search-term {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--redviolet);
+    padding: 2px 10px 2px 10px;
+    border-radius: 3px;
+    color: var(--redviolet);
+    
+
+
+}
+
+.search-term-text {
+
+}
+
+.close-search-term {
+    display: flex;
+    align-items: flex-start;
+    background-color: aquamarine;
+    
+
+}
+
+/* media rules */
+
+@media screen and (max-width: 768px) {
+    /* .triv-main-container {
+        width: 100%;
+        
+    } */
+
+
+    /* Wrapper around each column */
+    /* .category-detail {
+        width: 100%;
+        margin: 0px 10px 0px 10px;
+    } */
+
+    /* Wrapper within each category */
+    /* .category-detail-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .category-name-container {
+        min-height: 75px;
+    } */
+    
+}
+
+@media screen and (max-width: 480px) {
+    /* .triv-main-container {
+        width: 100%;
+     
+    } */
+
+     /* Wrapper around each column */
+    /*  .category-detail {
+        width: 100%;
+        margin: 0px 5px 0px 5px;
+    } */
+
+    /* Wrapper within each category */
+    /* .category-detail-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+    } */
+    
+}

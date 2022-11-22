@@ -1,0 +1,248 @@
+.bookmarks-container {
+    margin: 65px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookmarks-container-play {
+    margin: 65px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookmarks-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 22px;
+    background-color: var(--redviolet);
+    color: var(--white);
+    margin: 0px 0px 20px 0px;
+}
+
+.bookmarks-container-join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 65px 0px 0px 0px;
+}
+
+.login-bookmarks-title {
+    margin: 0px 0px 10px 0px;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    outline: none;
+    
+}
+
+
+.bookmarks-container::-webkit-scrollbar {
+    display: none;
+}
+
+.bookmarks-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 800px;
+}
+
+.bookmarks-inner-container-join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 800px;
+    height: 100%;
+}
+
+.bookmarks-detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.search-bookmarks {
+    border-radius: 3px;
+    border: 1px solid var(--lightgrey);
+    outline: none;
+    margin: 0px 0px 20px 0px;
+    width: 40%;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    padding: 5px;
+    
+}
+
+
+.search-bookmarks-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookmarks-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    padding: 5px 0px 5px 0px;
+    color: var(--black);
+  
+}
+
+.bookmarks-title {
+    color: var(--redviolet);
+    margin: 20px 0px 10px 0px;
+}
+
+.bookmarks-title-join {
+    color: var(--darkgrey);
+    margin: 20px 0px 10px 0px;
+}
+
+.bookmarked-categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0px 0px 20px 0px;
+}
+
+
+.play-bookmarks-container {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color: var(--lightgrey);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.play-game {
+    border: none;
+    color: var(--redviolet);
+    background-color: var(--white);
+    border-radius: 3px;
+    padding: 2px 12px 2px 12px;
+    box-shadow: 1px 1px 3px var(--lightishgrey);
+    cursor: pointer;
+
+}
+
+.play-game-count {
+    
+}
+
+.scroll-icon-container {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    opacity: .5;
+}
+
+.scroll-icon {
+    height: 20px;
+    width: auto;
+}
+
+.bookmark-category-button {
+    
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: var(--darkgrey);
+    margin: 0px 5px 5px 5px;
+    background: none;
+    outline: none;
+    border: .5px solid var(--grey);
+    box-shadow: 1px 1px 3px var(--lightgrey);
+    border-radius: 3px;
+    padding: 4px 5px 4px 5px;
+}
+
+
+
+.bookmark-category-button-clicked {
+    
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: var(--darkgrey);
+    margin: 0px 5px 5px 5px;
+    background: none;
+    outline: none;
+    border: .5px solid var(--darkgrey);
+    box-shadow: 1px 1px 3px var(--lightgrey);
+    border-radius: 3px;
+    padding: 4px 5px 4px 5px;
+}
+
+
+/* media rules */
+
+
+
+@media screen and (max-width: 768px) {
+    .bookmarks-inner-container {
+        width: 100%;
+    }
+
+    .bookmarked-categories {
+        width: 65%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .bookmarks-container {
+        margin: 25px 0px 100px 0px;
+    }
+
+    .bookmarks-container-play {
+        margin: 25px 0px 0px 0px;
+       
+    }
+
+    .search-bookmarks { 
+        width: 90%;
+        margin-bottom: 15px;
+        padding: 7px;
+        font-size: 1rem;
+    }
+    .bookmarked-categories {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .bookmark-category-button {
+    
+        font-size: 1rem;
+        margin: 0px 5px 7px 5px;
+        background: none;
+        outline: none;
+        border: .5px solid var(--grey);
+        box-shadow: 1px 1px 3px var(--lightgrey);
+        border-radius: 3px;
+        padding: 5px 8px 5px 8px;
+    }
+}

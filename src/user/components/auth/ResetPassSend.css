@@ -1,0 +1,111 @@
+
+.reset-pass-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 65px 0px 0px 0px;
+    
+}
+
+.reset-pass-container {
+
+}
+
+.reset-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--lightgrey);
+    box-shadow: 1px 1px 3px var(--lightgrey);
+    width: 300px;
+    border-radius: 3px;
+    padding-bottom: 15px;
+ 
+}
+
+/* wrapper around the form elements themselves */
+.reset-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+
+}
+
+
+/* wrapper around each input area (title, field, error)*/
+.reset-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling on the field*/
+.reset-input-field {
+    border-radius: 3px;
+    border: none;
+    box-shadow: inset 1px 1px 2px var(--lightgrey);
+    padding: 5px 5px 5px 5px;
+    width: 95%;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: var(--darkgrey);
+}
+
+.reset-input-field:focus {
+    outline: none;
+}
+
+/* style on each input label */
+.reset-input-label {
+    margin: 20px 0px 8px 0px;
+    border: none;
+    font-size: .9rem;
+    color: var(--darkgrey);
+
+}
+
+/* style on each input label */
+.reset-confirmation-label {
+    margin: 20px 0px 8px 0px;
+    border: none;
+    font-size: .9rem;
+    color: var(--black);
+
+}
+
+.reset-pass-button {
+    font-family: 'Inconsolata', monospace;
+    background: none;
+    font-size: .9rem;
+    border: 1px solid var(--grey);
+    box-shadow: 1px 1px 3px var(--lightgrey);
+    color: var(--darkgrey);
+    border-radius: 3px;
+    background-color: none;
+    margin: 20px 0px 20px 0px;
+    padding: 4px 10px 4px 10px;
+}
+
+.reset-pass-button:hover {
+ 
+    cursor: pointer;
+}
+
+
+.input-error {
+    color: red;
+    font-size: .75rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.input-field {
+    color: var(--black);
+}

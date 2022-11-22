@@ -1,0 +1,9 @@
+.menu-icon {
+    height: 20px;
+    width: auto;
+}
+
+.menu-icon:hover {
+    opacity: .5;
+}
+

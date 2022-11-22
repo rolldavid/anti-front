@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&display=swap');
+
+:root {
+    --black: #131925;
+    --green: #46DF9F;
+    --lightgreen: #c4fbe4;
+    --darkgreen: #257956;
+    --white: #ffffff;
+    --grey: #9ca1ae;
+    --lightishgrey:  #bbbfc8;
+    --darkgrey: #3f4147;
+    --lightgrey: #e5e8ef;
+    --darkblue: #3d557c;
+    --blue: #5171A5;
+    --darkred: #a64848;
+    --redviolet: #bb2c95;
+    --orange: #eea72c;
+}
+
+body {
+    background-color: var(--white);
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: var(--black);
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+    overflow-y: scroll;  
+}
+
+h1, h2, h3 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: var(--black);
+}
+
+::-webkit-scrollbar {
+    display: none; 
+}
+
+::placeholder {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: var(--grey);
+}
+ 
+

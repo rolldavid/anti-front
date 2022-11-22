@@ -1,0 +1,11 @@
+.stats-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.stats-title {
+    color: azure;
+}

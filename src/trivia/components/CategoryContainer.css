@@ -1,0 +1,211 @@
+/* 
+    Styles for the individual category components were brought
+    up here bc of the architecture where state from the category
+    container w relevant style must be derived from the overall
+    category container and passed into each category
+*/
+
+
+
+/* Main container that wraps the whole section including loading, etc*/
+.triv-main-container {
+    
+}
+
+/* Wrapper around all three columns */
+.category-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Wrapper around each column */
+.category-detail {
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+/* Wrapper within each category */
+.category-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.category-name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 75px;
+    width: 100%;
+    color: var(--darkgrey);
+    background-color: var(--darkgrey);
+    border: none;
+    color: var(--white);
+    border-radius: 3px;
+    font-weight: 300;
+    padding: 1px 1px 1px 1px;
+    box-shadow: 1px 1px 3px var(--grey);
+
+}
+
+/* Wrapper for loading state when retrieving game */
+.trivia-retrieve-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Starting color for each guess box*/
+.category-select-container-default {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    background-color: none;
+    font-size: 1.25rem;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid var(--lightgrey);
+    border-radius: 3px;
+    color: var(--darkgrey);
+    box-shadow: 1px 1px 5px var(--lightgrey);
+}
+
+.category-select-container-default:hover {
+    cursor: pointer;
+
+}
+
+/* Color change after user has won a question */
+.category-select-winner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    background-color: var(--green);
+    font-size: 1.3rem;
+    box-shadow: 1px 1px 5px var(--lightgrey);
+    border: 1px solid var(--lightgrey);
+    margin: 10px 0px 10px 0px;
+    border-radius: 3px;
+}
+
+/* Color change after user has won a question */
+.category-select-winner-grey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    background-color: var(--darkblue);
+    color: var(--darkblue);
+    font-size: 1.3rem;
+    box-shadow: 1px 1px 5px var(--lightgrey);
+    border: 1px solid var(--lightgrey);
+    margin: 10px 0px 10px 0px;
+    border-radius: 3px;
+}
+
+/* Color change after user has won a question */
+.category-select-winner-redviolet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    background-color: var(--redviolet);
+    color: var(--redviolet);
+    font-size: 1.3rem;
+    box-shadow: 1px 1px 5px var(--lightgrey);
+    border: 1px solid var(--lightgrey);
+    margin: 10px 0px 10px 0px;
+    border-radius: 3px;
+}
+
+/* Color change after user has lost a question */
+.category-select-loser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    font-size: 1.3rem;
+    box-shadow: 1px 1px 5px var(--lightgrey);
+    border: 1px solid var(--lightgrey);
+    background-color: var(--lightgrey);
+    margin: 10px 0px 10px 0px;
+    border-radius: 3px;
+}
+
+.author-category {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+}
+
+.info-img {
+    width: 15px;
+    height: auto;
+}
+
+.info-img:hover {
+    
+}
+
+.bookmark-img {
+    width: 15px;
+    height: auto;
+    margin: 0px 10px 0px 0px;
+    opacity: .5;
+}
+
+.bookmark-img:hover {
+    opacity: .8;
+}
+
+
+/* media rules */
+
+@media screen and (max-width: 768px) {
+    .triv-main-container {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+     /* Wrapper around each column */
+     .category-detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 5px 0px 5px;
+    }
+
+    /* Wrapper around all three columns */
+    .category-container {
+        padding: 0px 5px 0px 5px;
+    }
+
+    /* Wrapper within each category */
+    .category-detail-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    
+}

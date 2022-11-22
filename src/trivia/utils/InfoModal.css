@@ -1,0 +1,45 @@
+.info-modal-backdrop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 82%;
+    left: 0;
+    width: 100%;
+    height: 18vh;
+    background-color: white;
+    z-index: 10;
+  }
+
+  .info-modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: #00CC85;
+  }
+
+
+  .info-modal-enter {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+  
+  .info-modal-enter-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 200ms;
+  }
+  
+  .info-modal-exit {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .info-modal-exit-active {
+    transform: translateY(-10rem);
+    opacity: 0;
+    transition: all 0ms;
+  }

@@ -1,0 +1,19 @@
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 65px 0px 0px 0px;
+    
+}
+
+.welcome-text {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+    color: var(--darkgrey);
+    margin-bottom: 35px;
+    
+    
+}

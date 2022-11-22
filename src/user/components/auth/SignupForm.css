@@ -1,0 +1,135 @@
+/* wrapper around the form to create a background around the form */
+.signup-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    padding: 0px 0px 20px 0px;
+    border: 1px solid var(--grey);
+    border-radius: 3px;
+    background-color: var(--white);
+    box-shadow: 2px 2px 5px var(--lightgrey);
+}
+
+/* wrapper around the form elements themselves */
+.signup-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+/* wrapper around each input area (title, field, error)*/
+.signup-input-container {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* style on each input label */
+.signup-input-label {
+    margin: 10px 0px 8px 0px;
+    border: none;
+    font-size: .9rem;
+    color: var(--black);
+
+}
+
+/* styling on the field*/
+.input-field-signup {
+    border-radius: 3px;
+    border: 1px solid var(--grey);
+    box-shadow: inset 1px 1px 2px var(--lightgrey);
+    padding: 5px 5px 5px 5px;
+    width: 95%;
+}
+
+.input-field-signup:focus {
+    outline: none;
+}
+
+.signup-button {
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Inconsolata', monospace;
+    font-size: .85rem;
+    border-radius: 3px;
+    margin: 15px 0px 10px 0px;
+    background-color: none;
+    padding: 8px 0px 8px 0px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.signup-button:hover {
+    opacity: .95;
+}
+
+.signup-google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--darkgrey);
+    background-color: var(--white);
+    color: var(--darkgrey);
+    font-family: 'Inconsolata', monospace;
+    font-size: .85rem;
+    border-radius: 3px;
+    margin: 25px 0px 20px 0px;
+    background-color: none;
+    padding: 7px 0px 7px 0px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.signup-google-button:hover {
+    opacity: .95;
+}
+
+
+.signup-google-text {
+    color: var(--darkgrey);
+    font-family: 'Inconsolata', monospace;
+    font-size: .85rem;
+    text-decoration: none;
+}
+
+.google-icon {
+    height: 15px;
+    width: auto;
+    margin: 0px 10px 0px 0px;
+}
+
+
+
+
+
+
+
+.input-error {
+    color: red;
+    font-size: .75rem;
+}
+
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    color: var(--black);
+}
+
+.signup-error-text {
+    color: red;
+}
+

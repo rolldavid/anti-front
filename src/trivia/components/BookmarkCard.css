@@ -1,0 +1,138 @@
+
+
+.bookmark-card-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 1px solid var(--lightgrey);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--darkgrey);
+    margin: 20px 10px 0px 20px;
+    cursor: pointer;
+}
+
+.add-bookmark-card-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 1px solid var(--lightgrey);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--darkgrey);
+    margin: 20px 10px 0px 20px;
+  
+}
+
+
+.bookmark-card-question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+    color: var(--darkgrey);
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px var(--lightgrey);
+    text-align: center;
+   
+}
+
+
+.bookmark-card-answer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--darkgrey);
+    color: var(--white);
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px var(--grey);
+    
+  
+}
+
+.question-text {
+    margin: 10px;
+}
+
+.answer-text {
+    margin: 10px;
+}
+
+.add-bookmark-img {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: .6;
+}
+
+.remove-img {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: .6;
+}
+
+.remove-img:hover {
+    opacity: .4;
+}
+
+.confirm-remove {
+    margin: 0;
+}
+
+.remove-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.yes-remove {
+    border: none;
+    background-color: var(--darkgrey);
+    color: var(--white);
+    font-family: 'Inconsolata', monospace;
+    font-size: .85rem;
+    border-radius: 3px;
+    margin: 20px 0px 0px 0px;
+    padding: 8px 0px 8px 0px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px var(--grey);
+}
+
+.no-cancel {
+    border: 1px solid var(--grey);
+    background-color: none;
+    color: var(--darkgrey);
+    font-family: 'Inconsolata', monospace;
+    font-size: .85rem;
+    border-radius: 3px;
+    margin: 20px 0px 0px 0px;
+    padding: 8px 0px 8px 0px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px var(--lightgrey);
+}
+
+.yes-remove:hover {
+    opacity: .9;
+}
+
+.no-cancel:hover {
+    opacity: .9;
+}

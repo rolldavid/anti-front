@@ -1,0 +1,31 @@
+.resend-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.resend-body {
+    width: 50%;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.resend-button {
+    font-family: 'Inconsolata', monospace;
+    background: none;
+    font-size: 1rem;
+    border: 1px solid var(--grey);
+    color: var(--darkgrey);
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px var(--lightgrey);
+    background-color: none;
+    padding: 4px 20px 4px 20px;
+    
+}
+
+.resend-button:hover {
+    opacity: .9;
+    cursor: pointer;
+}

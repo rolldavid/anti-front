@@ -1,0 +1,15 @@
+.confirm-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+
+}
+
+.confirm-title {
+    text-align: center;
+    font-size: .95rem;
+    color: var(--black);
+}
+

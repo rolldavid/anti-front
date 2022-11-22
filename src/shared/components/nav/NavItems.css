@@ -1,0 +1,122 @@
+
+.navlink-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    text-decoration: none;
+    
+
+}
+
+.title-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.title-beta {
+    margin: 0px 0px 5px 5px;
+    color: var(--grey);
+    font-size: .9rem;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navlink-item {
+    display: flex;
+    color: var(--black);
+    text-decoration: none;
+    background-color: none;
+    border: none;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+.navlink-item:hover {
+    color: var(--darkgrey);
+    opacity: .75;
+}
+
+.mobile-menu {
+    display: none;
+    color: var(--black);
+}
+
+/* Media Rules */
+
+
+@media screen and (max-width: 479px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        
+    }
+
+    .navlink-item {
+        display: flex;
+        color: white;
+        text-decoration: none;
+        background-color: none;
+        border: none;
+        font-size: 1.3rem;
+        margin: 15px 0px 15px 0px;
+    }
+
+
+
+    .navlink-item:hover {
+        color: white;
+        opacity: .8;
+        font-size: 1.3rem;
+    }
+
+    .signup-button {
+        background: none;
+        border: 1px solid white;
+        color: white;
+        border-radius: 3px;
+        background-color: none;
+        padding: 4px 6px 4px 6px;
+    }
+
+    .signup-button:hover {
+        opacity: 76%;
+        border: 1px solid white;
+        color: white;
+        opacity: .7;
+    }
+
+    .profile-button {
+        background: none;
+        border: 1px solid white;
+        color: white;
+        border-radius: 3px;
+        background-color: none;
+        padding: 4px 12px 4px 12px;
+        font-size: 1.3rem;
+    }
+
+    .profile-button:hover {
+        opacity: 76%;
+        border: 1px solid white;
+        color: white;
+    }
+
+}

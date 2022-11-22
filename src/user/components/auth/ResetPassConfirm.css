@@ -1,0 +1,118 @@
+
+
+.new-pass-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 65px 0px 0px 0px;
+    
+}
+
+.new-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 0px 0px 20px 0px;
+    border-radius: 3px;
+    border: 1px solid var(--lightgrey);
+    box-shadow: 1px 1px 3px var(--lightgrey);
+    
+}
+
+/* wrapper around the form elements themselves */
+.new-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    
+}
+
+
+/* wrapper around each input area (title, field, error)*/
+.new-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling on the field*/
+.new-input-field {
+    border-radius: 3px;
+    border: none;
+    box-shadow: inset 1px 1px 2px var(--lightgrey);
+    padding: 5px 5px 5px 5px;
+    width: 95%;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: var(--darkgrey);
+}
+
+.new-input-field:focus {
+    outline: none;
+}
+
+/* style on each input label */
+.new-input-label {
+    margin: 20px 0px 8px 0px;
+    border: none;
+    font-size: 1rem;
+    color: var(--darkgrey);
+    margin-bottom: 35px;
+
+}
+
+/* style on each input label */
+.new-confirmation-label {
+    margin: 20px 0px 8px 0px;
+    border: none;
+    font-size: .9rem;
+    color: var(--black);
+
+}
+
+.new-pass-button {
+    font-family: 'Inconsolata', monospace;
+    background: none;
+    font-size: .9rem;
+    border: 1px solid var(--grey);
+    color: var(--darkgrey);
+    box-shadow: 1px 1px 3px var(--lightgrey);
+    border-radius: 3px;
+    background-color: none;
+    margin-top: 20px;
+    padding: 4px 10px 4px 10px;
+}
+
+.new-pass-button:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+
+/* wrapper around forgot password link */
+.new-pass-container-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .7;
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+}
+
+.new-forgot-pass-text {
+    text-decoration: none;
+    color: var(--black);
+    font-size: .8rem;
+}
+
+.new-orgot-pass-text:hover {
+    opacity: .8;
+}

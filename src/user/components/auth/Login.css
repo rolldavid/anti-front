@@ -1,0 +1,286 @@
+
+
+
+/* wrapper around the component */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 65px 0px 0px 0px;
+}
+
+.auth-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 22px;
+    background-color: var(--green);
+    color: var(--darkgrey);
+}
+
+
+/* Login Form*/
+
+
+/* wrapper around the form to create a background around the form */
+.login-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    padding: 0px 0px 20px 0px;
+    border: 1px solid var(--grey);
+    border-radius: 3px;
+    background-color: var(--white);
+    box-shadow: 2px 2px 5px var(--lightgrey);
+    
+  }
+  
+  
+  
+  /* wrapper around the form elements themselves */
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 0px 0px 0px 0px;
+    
+  }
+  
+  /* wrapper around each input area (title, field, error)*/
+  .login-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  /* styling on the field*/
+  .input-field-login {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    border-radius: 3px;
+    border: 1px solid var(--grey);
+    box-shadow: inset 1px 1px 2px var(--lightgrey);
+    padding: 5px 5px 5px 5px;
+    width: 95%;
+  }
+  
+  .input-field-login:focus {
+    outline: none;
+  }
+  
+  
+  /* style on each input label */
+  .login-input-label {
+    margin: 10px 0px 8px 0px;
+    border: none;
+    font-size: .9rem;
+    color: var(--black);
+  
+  }
+  
+  /* wrapper around forgot password link */
+  .pass-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+  }
+  
+  .forgot-pass-text {
+    text-decoration: none;
+    color: var(--black);
+    
+    font-size: .8rem;
+  }
+  
+  .forgot-pass-text:hover {
+    opacity: .8;
+  }
+  
+  .login-button {
+    border: none;
+    background-color: var(--darkgrey);
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: .85rem;
+    border-radius: 3px;
+    margin: 10px 0px 0px 0px;
+    background-color: none;
+    padding: 8px 0px 8px 0px;
+    width: 100%;
+    cursor: pointer;
+  
+  }
+  
+  .login-button:hover {
+    opacity: .95;
+  }
+  
+  .login-google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--grey);
+    background-color: var(--white);
+    color: var(--black);
+    font-family: 'Inconsolata', monospace;
+    font-size: .85rem;
+    border-radius: 3px;
+    margin: 25px 0px 10px 0px;
+    background-color: none;
+    padding: 7px 0px 7px 0px;
+    width: 100%;
+    cursor: pointer;
+   
+  }
+  
+  .login-line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+  }
+  
+  .login-line::before {
+    margin-right: 10px;
+  }
+  
+  .login-line::after {
+    margin-left: 10px;;
+  }
+  
+  .login-line::before, .login-line::after {
+    
+    content: "";
+    flex: 0 1 100%;
+    border-bottom: 1px solid var(--lightgrey);
+    transform: translateY(50%);
+  }
+  
+  .login-line-or {
+    font-size: .8rem;
+    color: var(--grey);
+  }
+  
+  
+  .login-google-button:hover {
+    opacity: .95;
+  }
+  
+  .login-google-text {
+    color: var(--darkgrey);
+    font-family: 'Inconsolata', monospace;
+    font-size: .85rem;
+    text-decoration: none;
+  }
+  
+  .google-icon {
+    height: 15px;
+    width: auto;
+    margin: 0px 10px 0px 0px;
+  }
+  
+  .new-account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px 0px 60px 0px;
+    
+  }
+  
+  .new-account-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .new-account-underline {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .new-account-text {
+    font-size: .85rem;
+    opacity: .65;
+  }
+  
+  .new-account-link {
+    font-size: .85rem;
+    margin: 0px 0px 0px 10px;
+    text-decoration: none;
+    color: var(--black);
+  }
+  
+  .new-account-link:hover {
+    opacity: .8;
+  }
+  
+  .brush {
+    margin-top: -10px;
+    margin-right: -5px;
+    height: 10px;
+    width: auto;
+    opacity: .6;
+  }
+  
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    color: var(--black);
+  }
+  
+  
+  .resend-title {
+    color: #131925;
+  }
+  
+  .resend-body {
+    width: 50%;
+    text-align: center;
+    color: #131925;
+    margin: 10px 0px 10px 0px;
+  }
+  
+  .login-error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .login-error-text {
+    color: red;
+  }
+  
+  
+  .invalid-pass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  

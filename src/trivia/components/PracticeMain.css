@@ -1,0 +1,85 @@
+.practice-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 65px 0px 0px 0px;
+}
+
+.archive-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 22px;
+    background-color: var(--darkblue);
+    color: var(--white);
+    margin: 0px 0px 20px 0px;
+}
+
+.practice-main-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.practice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+    width: 300px;
+    margin: 10px 0px 20px 0px;
+    padding: 5px 0px 5px 0px;
+    color: var(--black);
+}
+
+.practice-title {
+    color: var(--blue);
+    margin: 0px 0px 10px 0px;
+}
+
+.practice-subtitle {
+    margin: -5px 0px 0px 0px;
+    text-align: center;
+    opacity: .7;
+}
+
+.strikes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 0px 10px 0px;
+}
+
+
+
+@media  screen and (max-height: 650px) {
+    .practice-main-container {
+        height: 100%;
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .practice-main-container {
+        height: 100%;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .score-container-positive {
+        margin: 15px 0px 0px 0px;
+    }
+
+    .score-container-negative {
+        margin: 15px 0px 0px 0px;
+    }
+
+}
+

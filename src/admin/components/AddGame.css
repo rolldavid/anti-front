@@ -1,0 +1,329 @@
+.add-game-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 65px 0px 0px 0px;
+}
+
+.add-game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    padding: 0px 0px 20px 0px;
+    border-radius: 3px;
+    border: 1px solid var(--darkgrey);
+    box-shadow: 1px 1px 3px var(--lightgrey);
+    
+    
+}
+
+.add-game-inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+.add-game-title {
+    margin: 25px 0px -5px 0px;
+}
+
+.add-game-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-game-tip-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--darkgrey);
+    border-radius: 3px;
+    background-color: none;
+    margin: 10px 0px 20px 0px;
+    padding: 5px 8px 5px 8px; 
+    opacity: .8;
+    font-size: .85rem;
+    text-align: center;
+}
+
+.add-game-tip-container-hi {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--darkgrey);
+    border-radius: 3px;
+    background-color: none;
+    margin: 10px 0px 20px 0px;
+    padding: 5px 8px 5px 8px; 
+    opacity: .8;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.add-game-note-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--green);
+    border-radius: 3px;
+    background-color: none;
+    margin: 30px 0px -15px 0px;
+    padding: 5px 8px 5px 8px; 
+    opacity: .8;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.tip-text {
+    color: var(--black);
+    font-weight: 500;
+    
+}
+
+.add-game-tip {
+    margin: 2px 0px 2px 0px;
+}
+
+.question-list-container {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    
+}
+
+/* wrapper around each input area (title, field, error)*/
+.add-game-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.add-game-input-container-dropdown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.add-game-input-label {
+    margin: 20px 0px 8px 25px;
+    border: none;
+    font-size: .9rem;
+    color: var(--black);
+}
+
+/* styling on the field*/
+.add-game-input-field {
+    margin: 0px 25px 0px 23px;
+    border-radius: 3px;
+    border: 1px solid var(--lightgrey);
+    box-shadow: inset 1px 1px 2px var(--lightgrey);
+    padding: 5px 5px 5px 5px;
+    width: 90%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--black);
+}
+
+.add-game-input-field:focus {
+    outline: none;
+}
+
+.category-select-container {
+    margin: 0px 0px 0px 25px;
+    border-radius: 3px;
+    padding: 5px 5px 5px 5px;
+    width: 90%;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: var(--black);
+    font-size: 1rem;
+}
+
+.category-select-container:focus {
+    outline: none;
+}
+
+.form-buttons-containre {
+    display: flex;
+    justify-content: center;
+}
+
+.next-button {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    background: none;
+    font-size: 1.1rem;
+    border: 1px solid var(--black);
+    color: var(--black);
+    border-radius: 3px;
+    background-color: none;
+    margin: 40px 5px 0px 5px;
+    padding: 4px 15px 4px 15px;
+}
+
+.next-button:hover {
+    background-color: var(--darkgrey);
+    color: var(--white);
+}
+
+
+.add-game-steps {
+    margin: 15px 0px 10px 0px;
+    color: var(--black);
+}
+
+.add-game-error {
+    color: var(--darkred);
+    font-size: .8rem;
+    margin: 5px 0px 0px 25px;
+}
+
+.question-title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.question-title {
+    margin: 5px 0px 0px 25px;
+}
+
+.add-game-break {
+    height: 20px;
+}
+
+
+.add-game-checkbox-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    height: 40px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.add-game-checkbox {
+    margin: 18px 0px 0px -3px;
+}
+
+.add-game-checkbox-label {
+    margin: 20px 0px 8px 10px;
+    border: none;
+    font-size: .9rem;
+    color: var(--black);
+}
+
+.add-game-checkbox:checked {
+    color: var(--black);
+}
+
+.add-game-checkbox-container input[type='checkbox'] {
+    accent-color: var(--darkgrey);
+}
+
+.thanks-for-submitting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0px 0px 0px;
+}
+
+.notify-text {
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+
+.add-more-button {
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    font-weight: 300;
+    background: none;
+    font-size: 1.1rem;
+    border: 1px solid var(--black);
+    color: var(--black);
+    border-radius: 3px;
+    background-color: none;
+    margin: 20px 5px 10px 5px;
+    padding: 4px 15px 4px 15px;
+}
+
+.add-more-button:hover {
+    background-color: var(--darkgrey);
+    color: var(--white);
+}
+
+.author {
+    color: var(--darkblue);
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+/* media rules */
+
+@media screen and (max-width: 768px) {
+    .add-game-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .add-game-container {
+        width: 95%;
+    }
+
+    .add-game-main {
+        margin: 35px 0px 0px 0px;
+    }
+
+    
+
+    .add-game-inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        
+    }
+
+    .category-select-container {
+        font-size: 1rem;
+        
+    }
+
+    .category-select-container:focus {
+        
+    }
+
+    /* styling on the field*/
+    .add-game-input-field {
+        font-size: 1rem;
+    }
+
+}
